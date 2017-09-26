@@ -8,5 +8,6 @@ This script will open all articles in new tab at once and you can use EpubPress 
 Todo:
 
 == Initium ==
+This script will open all articles in cover page and category section.
 
 == ??????? ==
