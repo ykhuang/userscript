@@ -24,20 +24,30 @@ function openNewBackgroundTab(target){
     window.focus();
 }
 
+var digest = document.getElementsByClassName("c-top-news__rest l-row"); // what's new section in cover
 var whatsnew = document.getElementsByClassName("c-whats-new__content l-row"); // what's new section in cover
 var cate = document.getElementsByClassName("l-waffle-1 l-waffle-sm-2 l-waffle-md-3 l-waffle-lg-4"); // for each category
 var x = document.getElementsByClassName("c-digest-content l-col-8 l-col-md-6 l-col-lg-8"); // for round table in cover
 
 // open tabs for cover
+for(var i=0;i<digest.length;i++)
+{
+    openNewBackgroundTab(digest[i].getElementsByTagName("a")[0].href);
+    openNewBackgroundTab(digest[i].getElementsByTagName("a")[3].href);
+    sleep(1000);
+}
+
 for(var i=0;i<whatsnew.length;i++)
 {
     openNewBackgroundTab(whatsnew[i].getElementsByTagName("a")[0].href);
     openNewBackgroundTab(whatsnew[i].getElementsByTagName("a")[2].href);
+    sleep(1000);
 }
 
 for(var i=0;i<x.length;i++)
 {
     openNewBackgroundTab(x[i].getElementsByTagName("a")[1].href);
+    sleep(1000);
 }
 
 // open tabs for category
