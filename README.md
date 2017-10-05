@@ -11,4 +11,7 @@ This script will open all articles in cover page and category section.
 
 Todo:
 
-== ??????? ==
+== news.mooread ==
+
+
+== twreporter ==
