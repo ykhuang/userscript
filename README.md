@@ -9,9 +9,13 @@ This script will open all articles in new tab at once and you can use EpubPress 
 
 This script will open all articles in cover page and category section.
 
-Todo:
-
 == news.mooread ==
 
+This script will open all articles in cover page and most of categories.
 
 == twreporter ==
+
+This script will open all articles in cover page.
+
+Todo:
+
